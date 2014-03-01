@@ -33,9 +33,5 @@ TARGET_OTA_ASSERT_DEVICE := t6wl,t6vzw
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := t6wl
 
-# Filesystem
-BOARD_SYSTEMIMAGE_PARTITION_SIZE := 1946156032
-BOARD_USERDATAIMAGE_PARTITION_SIZE := 27917287424
-
 # inherit from the proprietary version
 -include vendor/htc/t6vzw/BoardConfigVendor.mk
