@@ -17,9 +17,5 @@
 # call the proprietary setup
 $(call inherit-product-if-exists, vendor/htc/t6vzw/t6vzw-vendor.mk)
 
-# overlays
-DEVICE_PACKAGE_OVERLAYS += device/htc/t6vzw/overlay
-
-
 # Inherit from t6-common
 $(call inherit-product, device/htc/t6-common/t6-common.mk)
