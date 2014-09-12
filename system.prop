@@ -21,7 +21,11 @@ ro.ril.enable.gea3=1
 ro.ril.set.mtusize=1428
 ro.ril.vzw.feature=1
 ro.ril.wp.feature=1
+ro.cdma.data_retry_config=max_retries=infinite,0,0,60000,120000,480000,900000
+ro.gsm.data_retry_config=max_retries=infinite,0,0,60000,120000,480000,900000
+ro.gsm.2nd_data_retry_config=max_retries=infinite,0,0,60000,120000,480000,900000
 ro.config.svlte1x=true
+ro.ril.def.agps.mode=6
 
 # Carrier definitions
 ro.cdma.home.operator.numeric=311480
