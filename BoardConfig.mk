@@ -33,5 +33,8 @@ TARGET_OTA_ASSERT_DEVICE := t6wl,t6vzw
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := t6wl
 
+# Radio
+BOARD_RIL_CLASS := ../../../device/htc/t6vzw/ril
+
 # inherit from the proprietary version
 -include vendor/htc/t6vzw/BoardConfigVendor.mk
