@@ -27,13 +27,3 @@ ro.gsm.data_retry_config=max_retries=infinite,0,0,60000,120000,480000,900000
 ro.gsm.2nd_data_retry_config=max_retries=infinite,0,0,60000,120000,480000,900000
 ro.config.svlte1x=true
 ro.ril.def.agps.mode=6
-
-# Carrier definitions
-ro.cdma.home.operator.numeric=311480
-ro.cdma.home.operator.alpha=Verizon
-gsm.sim.operator.alpha=Verizon
-gsm.sim.operator.numeric=311480
-gsm.sim.operator.iso-country=us
-gsm.operator.alpha=Verizon
-gsm.operator.numeric=311480
-gsm.operator.iso-country=us
